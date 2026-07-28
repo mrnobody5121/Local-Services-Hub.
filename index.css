@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0D0D0D;
+    color: #F4F4F5;
+    font-family: 'Inter', 'Poppins', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom Yellow Glow & Animations */
+.glow-yellow {
+  box-shadow: 0 0 25px rgba(255, 212, 0, 0.25);
+}
+
+.glow-yellow-sm {
+  box-shadow: 0 0 12px rgba(255, 212, 0, 0.3);
+}
+
+.glow-yellow-lg {
+  box-shadow: 0 0 40px rgba(255, 212, 0, 0.35);
+}
+
+.border-glow-yellow {
+  border-color: #FFD400;
+  box-shadow: 0 0 15px rgba(255, 212, 0, 0.4);
+}
+
+/* Custom Yellow Button Styles */
+.btn-yellow {
+  background-color: #FFD400;
+  color: #000000;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-yellow:hover {
+  background-color: #ffe033;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 212, 0, 0.4);
+}
+
+/* Custom scrollbars for modals and long dropdowns */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272A;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FFD400;
+}

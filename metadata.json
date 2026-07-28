@@ -1,0 +1,6 @@
+{
+  "name": "Local Services Hub",
+  "description": "Find trusted local service providers and professionals near you across Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
